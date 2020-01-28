@@ -69,11 +69,58 @@ h2 {
 
 .feautures {
     background-color: orange;
+    z-index: 1;
+    padding-bottom: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1440px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.feautures ul {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    margin: 0 auto;
+    min-width: 1024px;
+    width: 100%;
+    max-width: 1440px;
+    height: 200px;
+    text-align: center;
+}
+
+.feautures ul li {
+    position: relative;
+    z-index: 1;
+    float: left;
+    overflow: hidden;
+    margin: 0;
+    width: 25%;
+    height: 200px;
+}
+
+.feautures ul li a {
     position: absolute;
     z-index: 1;
-    bottom: 90px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: block;
     overflow: hidden;
-    width: 100%;
+    cursor: pointer;
+}
+
+.feautures ul li a img {
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    margin-left: -182px;
+}
+
+.feuture-img {
+    width: 364px;
     height: 200px;
 }
 
