@@ -16,6 +16,7 @@ nav {
   width: 100%;
   margin-left: auto;
   height: 60px;
+  box-sizing: border-box;
 }
 
 .nav-content {
@@ -123,6 +124,7 @@ h2 {
   height: 200px;
   overflow: hidden;
   max-width: 1440px;
+  box-sizing: border-box;
 }
 
 .feautures ul {
