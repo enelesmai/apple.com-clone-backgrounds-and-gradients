@@ -1,14 +1,13 @@
 body {
     position: relative;
     z-index: 1;
-    min-width: 1024px;
-    height: 100%;
     background: #fff;
     font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
     color: #333;
     min-width: 1024px;
     min-height: 830px;
     width:100%;
+    height: 100%;
 }
 
 nav {
@@ -20,11 +19,17 @@ nav {
     height: 60px;
 }
 
-.cover {
-    right: auto;
+main {
     width: 100%;
-    height: 840px;
+    height: auto;
+}
+
+.cover {
+    margin-top: 0px;
+    width: 100%;
+    height: 640px;
     background: url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg) 50% 100% no-repeat;
+    overflow: hidden;
 }
 
 header {
@@ -32,24 +37,27 @@ header {
     color: white;
     height: auto;
     padding: 180px 0;
+    line-height: 54px;
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h1 {
-    font-size: 24px;
-    line-height: 36px;
+    font-size: 54px;
 }
 
 h2 {
     z-index: 10;
-    font-size: 16px;
+    font-size: 36px;
 }
 
 .see-more {
+    font-size: 24px;
     position: relative;
     z-index: 10;
     overflow: hidden;
-    height: 31px;
-    display: block;
+    height: 40px;
 }
 
 .center {
