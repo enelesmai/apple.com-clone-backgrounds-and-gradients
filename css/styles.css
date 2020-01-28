@@ -11,12 +11,52 @@ body {
 }
 
 nav {
-    background-color: turquoise;
     position: absolute;
     top: 80px;
     width: 100%;
     margin-left: auto;
     height: 60px;
+}
+
+.nav-content {
+    padding-top: 9px;
+    margin: auto;
+    width: 1440px;
+    display: flex;
+    flex-flow: row;
+}
+
+.nav-button {
+    width: 200px;
+    font-size: 16px;
+    color: #fff;
+    background: linear-gradient(180deg, #3e3e3e,#9a9a9a, #3e3e3e);
+    padding: 12px;
+    text-align: center;
+    border-right: 1px solid #333;
+}
+
+.btn-hover:hover {
+    background: linear-gradient(180deg, #3e3e3e,#6a6a6a, #3e3e3e);
+    cursor: pointer;
+}
+
+.btn-left {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.btn-right {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    text-align: left;
+}
+
+.input-search {
+    background-color: transparent;
+    border-radius: 10px;
+    border-color: thistle 1px solid;
+    width: 80%;
 }
 
 main {
@@ -41,6 +81,10 @@ header {
     width: 1024px;
     margin-left: auto;
     margin-right: auto;
+}
+
+header:hover {
+    cursor: pointer;
 }
 
 h1 {
