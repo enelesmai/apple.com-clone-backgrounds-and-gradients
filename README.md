@@ -7,7 +7,7 @@ This project consists of building a webpage using images as a background and add
 You can find the original project specification at: https://www.theodinproject.com/courses/html5-and-css3/lessons/building-with-backgrounds-and-gradients
 
 
-![screenshot](./assets/screen_shot.png)
+![screenshot](./assets/screen_shot.PNG)
 
 ## Built With
 
@@ -28,7 +28,7 @@ You can find the original project specification at: https://www.theodinproject.c
 
 ## Author
 
-👤 **Elbie Moonga**
+👤 **Xóchitl Selene**
 
 - GitHub: [@enelesmai](https://github.com/enelesmai)
 - Twitter: [enelesmai](https://twitter.com/enelesmai)
